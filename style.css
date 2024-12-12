@@ -1,0 +1,91 @@
+/* Estilos Globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f6;
+    color: #204847;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #3d4f4e;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 20px;
+    line-height: 1.6;
+    color: rgb(32, 88, 71);
+}
+
+span {
+    font-weight: bold;
+    color: #204847;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f9f8;
+    padding: 20px;
+}
+
+nav .titulo {
+    text-align: center;
+}
+
+nav .imagenes-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+nav img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav .icono {
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+
+nav .icono:hover {
+    width: 200px;
+    height: 300px;
+    rotate: 30deg;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+.personajes-sanrio, #cinnamon_especial {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.personajes-sanrio {
+    background-color: rgb(159, 235, 209);
+}
+
+#cinnamon_especial {
+    background-color: rgb(54, 224, 236);
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
